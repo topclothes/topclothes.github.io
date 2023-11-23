@@ -26,5 +26,22 @@ p{
 }
 
 .img img{
-	width: 30%;
+	width: 90%;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.img, .text{
+	flex: 50%;
+	padding: 3%;
+}
+
+.product{
+	display: flex;
+	background-color: #4D4435;
+	margin: 3%;
 }
