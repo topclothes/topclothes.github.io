@@ -15,30 +15,16 @@ p{
 	color: #fff;
 }
 
-.FTitle{
-	/*color: purple;*/
-	background-color: #555;
+.topbar{
+	background-color: #4D4435;
+	color: white;
+}
+.topbar h3{
 	text-align: center;
-	padding: 20px 0;
-}
-.FTitle h1{
-	color: #fff;
+	text-transform: uppercase;
+	padding: 20px;
 }
 
-.twocol{
-	display: flex;
-}
-
-.pu, .bz, .sumpu, .sumbz, .notbonus, .withbonus{
-	flex: 1 1 50%;
-	text-align: center;
-	border: 3px solid #666;
-}
-
-#pu, #bz{
-	width: 150px;
-	border-radius: 10px;
-	padding: 3px 5px;
-	margin: 10px 1px;
-	font-size: 15px
+.img img{
+	width: 30%;
 }
